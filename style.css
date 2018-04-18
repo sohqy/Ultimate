@@ -1,0 +1,40 @@
+/* Text types */
+
+body {
+	font-family: "futura-pt", sans-serif;
+}
+
+p {
+	font-size: 12px;
+	padding: 2px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+ul {
+	font-size: 12px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* Containers #precedes an id selector.
+			 .precedes a class selector.
+			 */
+#mainwidth {
+	width: 90%;
+	max-width:1200px;
+	height: auto;
+	padding: 2px 20px;
+	margin: 0 auto;
+}
